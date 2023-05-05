@@ -39,7 +39,7 @@ body {
 }
 .search {
   font-family: monocraft, monospace;
-  width: 100%;
+  width: 30%;
   position: relative;
   display: flex;
   background-color: #181A1B;
@@ -47,7 +47,7 @@ body {
 
 .searchTerm {
   font-family: monocraft, monospace;
-  width: 100%;
+  width: 30%;
   border: 3px solid #cc241d;
   padding: 5px;
   height: 20px;
@@ -58,6 +58,8 @@ body {
 }
 
 .searchTerm:focus{
+  transition: width 0.5s ease;
+  width: 50%
   color: #cc241d;
   background-color: #181A1B;
 }
